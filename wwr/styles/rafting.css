@@ -29,10 +29,30 @@
   }
   
   header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
     background-color: var(--primary-color);
     color: var(--accent1-color);
     padding: 1rem;
   }
+  header img {
+    height: 60px;
+  }
+
+  /* ========== NAVIGATION ========== */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: var(--accent1-color);
+  font-weight: bold;
+}
   
   /* Typography */
   h1,
@@ -102,3 +122,40 @@
     float: right;
     width: 125px;
   }
+  /* ========== ADVENTURE SECTION (GRID) ========== */
+.adventure-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.adventure-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ========== FOOTER (FLEX) ========== */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-media img {
+  width: 32px;
+  height: auto;
+}
