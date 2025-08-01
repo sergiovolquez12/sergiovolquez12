@@ -173,3 +173,87 @@ footer p {
   width: 300px;
 }
 
+/* ========== CONTACT PAGE STYLES ========== */
+
+.contact-info {
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.contact-info iframe {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.team figure {
+  flex: 1;
+}
+.team img {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.team figcaption {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.contact-form {
+  background-color: var(--accent2-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form label,
+.contact-form p {
+  margin: 0.5rem 0 0.25rem;
+  font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: var(--body-font);
+}
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+.contact-form button[type="submit"] {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.contact-form button[type="submit"]:hover {
+  background-color: var(--accent1-color);
+}
