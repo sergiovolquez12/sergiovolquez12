@@ -278,8 +278,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #004080;
-  color: white;
+  background-color: #b5ffe1;
+  color: #0066cc;
 }
 
 header .logo {
@@ -287,7 +287,7 @@ header .logo {
 }
 
 nav a {
-  color: white;
+  color: #0066cc;
   text-decoration: none;
   margin-left: 1rem;
   font-weight: bold;
